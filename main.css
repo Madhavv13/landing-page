@@ -1,0 +1,177 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 100%;
+}
+.header
+{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(8, 10, 37);
+    margin:0;
+    padding:0;
+}
+.logo
+{
+    display: flex;
+}
+
+.links
+{
+    display: flex;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 700;
+    font-family:sans-serif;
+    color: white;
+    padding-right: 50px;
+}
+
+li:hover
+{
+    text-decoration: underline;
+    color: rgba(37, 42, 192, 0.839);  
+}
+
+.cover
+{
+    display: flex;
+    background-color:rgb(1,4,34);
+    height: 100%;
+    overflow: hidden;
+    margin:0;
+    padding:0;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+.quote
+{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-self: center;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.image
+{
+    
+    display: flex;
+    align-self:center;
+   
+}
+
+.buttons
+{
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgba(72, 72, 184, 0.934);
+    color: white;
+    font-weight: 600;
+}
+
+.buttons:hover
+{
+    background-color:rgba(69, 33, 33, 0.797);
+}
+
+.playlist
+{
+    padding-top: 30px;
+    display:flex;
+    background-color:rgb(3,1, 12);
+    flex-direction: column;
+    padding-bottom:20px;
+    
+}
+
+.cards
+{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    padding-left:20px;
+    justify-content: space-evenly;
+}
+
+.card
+{
+    border-radius: 23px;
+    display: flex;
+}
+
+.content
+{
+    display: flex;
+    background-color:rgb(49, 50, 52);
+    font-size: 48px;
+    font-weight:800;
+    color:whitesmoke;
+    padding-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text
+{
+    display: flex;
+    padding:120px 60px 60px 60px;
+    width: 700px;
+    flex-direction: column;
+}
+
+.author
+{
+    display: flex;
+    align-self: flex-end;
+}
+
+.signup
+{
+    display: flex;
+    background-color: rgba(57, 28, 28, 0.904);
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box
+{
+    display: flex;
+    background-color: rgba(65, 105, 225, 0.861);
+    width: 800px;
+    height:250px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 30px;
+}
+
+.footer
+{
+    display: flex;
+    height: 100px;
+    background-color: rgb(21, 23, 47);
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
